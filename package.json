@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [uglify-to-browserify (v1.0.2)](https://github.com/ForbesLindesay/uglify-to-browserify)  [![npm package](https://img.shields.io/npm/v/npmtest-uglify-to-browserify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-uglify-to-browserify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-uglify-to-browserify.svg)](https://travis-ci.org/npmtest/node-npmtest-uglify-to-browserify)",
+    "description": "#### basic test coverage for  [uglify-to-browserify (v1.0.2)](https://github.com/ForbesLindesay/uglify-to-browserify)  [![npm package](https://img.shields.io/npm/v/npmtest-uglify-to-browserify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-uglify-to-browserify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-uglify-to-browserify.svg)](https://travis-ci.org/npmtest/node-npmtest-uglify-to-browserify)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "uglify-to-browserify": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }

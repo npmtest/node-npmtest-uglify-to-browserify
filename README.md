@@ -1,6 +1,6 @@
 # npmtest-uglify-to-browserify
 
-#### test coverage for  [uglify-to-browserify (v1.0.2)](https://github.com/ForbesLindesay/uglify-to-browserify)  [![npm package](https://img.shields.io/npm/v/npmtest-uglify-to-browserify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-uglify-to-browserify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-uglify-to-browserify.svg)](https://travis-ci.org/npmtest/node-npmtest-uglify-to-browserify)
+#### basic test coverage for  [uglify-to-browserify (v1.0.2)](https://github.com/ForbesLindesay/uglify-to-browserify)  [![npm package](https://img.shields.io/npm/v/npmtest-uglify-to-browserify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-uglify-to-browserify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-uglify-to-browserify.svg)](https://travis-ci.org/npmtest/node-npmtest-uglify-to-browserify)
 
 #### A transform to make UglifyJS work in browserify.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-uglify-to-browserify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-uglify-to-browserify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-uglify-to-browserify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-uglify-to-browserify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-uglify-to-browserify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-uglify-to-browserify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-uglify-to-browserify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-uglify-to-browserify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-uglify-to-browserify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-uglify-to-browserify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-uglify-to-browserify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-uglify-to-browserify/build/coverage.html/index.html)
 
@@ -69,7 +69,8 @@
     "scripts": {
         "test": "node test/index.js"
     },
-    "version": "1.0.2"
+    "version": "1.0.2",
+    "bin": {}
 }
 ```
 
